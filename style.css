@@ -1,0 +1,80 @@
+body {
+  background-color:#434343;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.nav-wrapper {
+  padding-bottom: 40px;
+  /* margin-bottom: 40px; */
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.card {
+  background-image: linear-gradient(#93a5cf, #e4efe9 );
+}
+
+#audioDisplay {
+  display: none;
+}
+
+#togglePause {
+  display: none;
+}
+
+#toggleStop:hover {
+  background-color: rgb(243, 71, 71);
+}
+#togglePlay:hover {
+  background-color: yellowgreen;
+
+}
+#togglePause:hover {
+  background-color: yellow;
+}
+#bookmarkTime:hover {
+  background-color: gray;
+}
+
+#currentTime {
+  height: 30px;
+  width: 20%;
+}
+
+#toggleStop, #togglePause, #togglePlay, #bookmarkTime{
+  margin-top :10px;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#download {
+  width: 20%;
+  border-radius: 8px;
+  background-color: rgb(46, 161, 255);
+  height: 30px;
+  margin-top:20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .container {
+    padding-right: 100px;
+    
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+}
