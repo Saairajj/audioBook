@@ -67,7 +67,7 @@ p {
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1137px) {
   .container {
     padding-right: 100px;
     
@@ -75,6 +75,14 @@ p {
 
   p {
     font-size: 15px;
+  }
+
+  #download {
+    width: 60%;
+  }
+
+  #currentTime {
+    width: 80%;
   }
 
 }
